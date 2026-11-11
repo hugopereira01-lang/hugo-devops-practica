@@ -3,3 +3,18 @@
 __pycache__/
 .venv/
 .env
+# macOS
+.DS
+Store
+_
+# Python
+__pycache
+__/
+*.py[cod]
+.venv/
+venv/
+# Variables de entorno y secretos
+.env
+# Editores
+.vscode/
+.idea/
