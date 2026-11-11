@@ -1,0 +1,20 @@
+# Control de versiones
+.git
+.gitignore
+# Entornos virtuales y cachés de Python
+.venv
+venv
+**/__pycache__
+**/*.py[cod]
+# Secretos y variables de entorno
+.env
+*.env
+# Sistema y editores
+**/.DS_Store
+.vscode
+.idea
+# Ficheros que no necesita la imagen
+Dockerfile
+.dockerignore
+*.zip
+*.md
