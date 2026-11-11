@@ -47,4 +47,9 @@ Después abre http://127.0.0.1:8000/docs para probar la API desde el navegador.
 | DELETE | `/productos/{producto_id}` | Elimina un producto |
 | POST | `/pedidos` | Crea un pedido y descuenta el stock |
 | GET | `/usuarios/{cliente_id}/pedidos` | Pedidos de un cliente, por fecha |
-EOF
+
+
+## Flujo de trabajo con Git
+- `main`: rama estable y protegida. Solo recibe cambios mediante Pull Request.
+- `feature/`: una rama corta por cada tarea (`feature/docs`, `feature/docker`).
+- Commits pequeños con prefijo: `feat:`, `docs:`, `chore:`, `fix:`.
