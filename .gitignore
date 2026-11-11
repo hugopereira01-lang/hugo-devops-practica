@@ -1,15 +1,7 @@
-
-.DS_Store
-__pycache__/
-.venv/
-.env
 # macOS
-.DS
-Store
-_
+.DS_Store
 # Python
-__pycache
-__/
+__pycache__/
 *.py[cod]
 .venv/
 venv/
@@ -18,3 +10,5 @@ venv/
 # Editores
 .vscode/
 .idea/
+# Entregas
+*.zip
